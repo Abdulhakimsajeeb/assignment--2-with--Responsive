@@ -1,0 +1,136 @@
+
+.sajeeb{
+    display: flex;
+    margin-top: 10%;
+}
+.hakim{
+    font-size: 3.2em;
+    font-weight: 700;
+}
+.half-width{
+    width: 50%;
+}
+
+.half-width img{
+    margin-top: 1%;
+    width: 70%;
+    margin-left: 20%;
+}
+p{
+    font-size:large;
+    font-weight: 500;
+
+}
+#button{
+background-color: rgb(241, 42, 152);
+color: white;
+padding: 1%;
+text-decoration: none;
+}
+
+
+/* -------------------------------logo part ------------------------- */
+
+
+.sob-logo{
+ display: grid;
+ grid-template-columns: repeat(7,1fr);
+    margin-top: 8%;
+      margin-left: 2%;
+      padding-left: 10%;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+}
+
+
+
+/* ---------------------------popular collection part ------------------------------- */
+
+#image-part{
+background-color: rgb(252, 250, 245);
+}
+
+.link{
+    text-decoration: none;
+    background-color: rgb(255, 92, 51);
+    color: white;
+    margin-left: 30%;
+    padding: 2% 3% ;
+    
+}
+
+.popular{
+    text-align: center;
+}
+
+.filled{
+    color: rgb(245, 209, 8);
+}
+
+/* ------------------------footer er ager  part ---------------- */
+
+#hakim{
+    text-decoration: none;
+    color: rgb(238, 31, 238);
+    font-weight: 800;
+    margin-left: 90%;
+}
+
+#mannan{
+    background-color: rgb(238, 47, 13);
+    color: white;
+    padding: 1.5% 3%;
+    text-decoration: none;
+}
+    /* ----------------------footer part --------------------- */
+footer{
+background-color: rgb(50, 16, 58);
+    
+}
+
+.footing{
+    color: white;
+    text-align: center;
+}
+/*--------------------------- Responsive media quarey ----------------- */
+
+@media (max-width: 768px) {
+    
+.sajeeb{
+    display: block;
+   
+}
+.hakim{
+    font-size: 1em;
+    font-weight: 900;
+}
+.half-width{
+    width: 70%;
+}
+
+.half-width img{
+    margin-top: 4%;
+    width: 60%;
+    
+}
+
+
+.sob-logo{
+ display: grid;
+ grid-template-columns: repeat(2,2fr);
+ width: 0%;
+ margin-top: 6%;
+ margin-left:0%;
+ border-top: 2px solid gray;
+ border-bottom: 2px solid gray;
+
+}
+
+ #hakim{
+    text-decoration: none;
+    color: rgb(238, 31, 238);
+    font-weight: 800;
+    margin-left: 50%;
+}
+
+ }
